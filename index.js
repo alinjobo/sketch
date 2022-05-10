@@ -10,8 +10,13 @@ function creategrid(size=16){
         div[i].style.width="37.5px";
         cont.append(div[i]);
         div[i].addEventListener('mouseenter',()=>{
+            div[i].style.backgroundColor= 'black';
             
-        })   
+        })   ;
+        div[i].addEventListener('mouseleave',()=>{
+            div[i].style.backgroundColor='white';
+        }
+        );
      }
 
 
