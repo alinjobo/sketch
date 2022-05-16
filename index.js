@@ -6,17 +6,17 @@ function creategrid(size=16){
     for(let i=0;i<s;++i){
         div[i]=document.createElement('div');
         div[i].classList.add('pixel');
+
         div[i].style.height="37.5px";
         div[i].style.width="37.5px";
         cont.append(div[i]);
-        div[i].addEventListener('mouseenter',()=>{
+        cont.addEventListener('click',()=>{
+        div[i].addEventListener('mouseover',()=>{
             div[i].style.backgroundColor= 'black';
             
-        })   ;
-        div[i].addEventListener('mouseleave',()=>{
-            div[i].style.backgroundColor='white';
-        }
-        );
+        })   ;}
+       // cont.addEventListener('')
+       
      }
 
 
