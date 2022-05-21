@@ -1,3 +1,14 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.grid{
+    border-style: solid;
+    border-color: red;
+}
 .container{
     display: flex;
     width: 600px;
@@ -5,14 +16,14 @@
     margin: 0px;
     flex: 1;
     flex-wrap: wrap;
- 
+    border-width: 10px;
+    border-radius: 20%;
+    border-color: red;
   
 }
 .pixel{
     display: flex;
    
-  
-    height: 10px;
-    width: 20px;
-   
+height: auto;
+width: auto;
 }
