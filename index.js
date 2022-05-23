@@ -39,3 +39,4 @@ function newgrid()
         creategrid(prompt(''));
 }
 b.addEventListener('click',newgrid);
+//
