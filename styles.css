@@ -11,8 +11,8 @@ body{
 }
 .container{
     display: flex;
-    width: 600px;
-    height: 600px;
+    width: 960px;
+    height: 960px;
     margin: 0px;
     flex: 1;
     flex-wrap: wrap;
@@ -26,4 +26,4 @@ body{
    
 height: auto;
 width: auto;
-}
+}   
